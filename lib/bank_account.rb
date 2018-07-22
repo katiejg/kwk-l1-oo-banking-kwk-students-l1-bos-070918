@@ -5,5 +5,6 @@ class BankAccount
     @balance=1000
     @status="open"
   end
-  attr_accessor :name, :balance, :status
+  attr_reader :name
+  attr_accessor :balance, :status
 end
