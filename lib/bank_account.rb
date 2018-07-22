@@ -8,6 +8,6 @@ class BankAccount
   attr_reader :name
   attr_accessor :balance, :status
   def deposit(money)
-    balance += money
+    balance += money.to_i
   end
 end
