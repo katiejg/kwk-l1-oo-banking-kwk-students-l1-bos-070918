@@ -6,5 +6,5 @@ class Transfer
     @amount=amount
     @status="pending"
   end
-  attr_accessor :sender, :receiver, :amount
+  attr_accessor :sender, :receiver, :amount, :status
 end
