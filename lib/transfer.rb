@@ -9,7 +9,7 @@ class Transfer
   attr_accessor :sender, :receiver, :amount, :status
   def valid?
     if sender.valid? == true && receiver.valid? == true
-      1
+      true
     else
       false
     end
