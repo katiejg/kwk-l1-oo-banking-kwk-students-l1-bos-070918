@@ -14,6 +14,6 @@ class Transfer
       false
     end
   end
-  sender.valid? && receiver.valid?.length == 1
+  sender.valid? && receiver.valid? == 1
 end
 
