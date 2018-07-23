@@ -5,4 +5,5 @@ class Transfer
     @receiver=receiver
     @amount=amount
   end
+  attr_accessor :sender
 end
