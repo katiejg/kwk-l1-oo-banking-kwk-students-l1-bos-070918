@@ -14,6 +14,8 @@ class Transfer
     self.status = "complete"
     self.sender.balance -= self.amount
     self.receiver.balance += self.amount
+    if self.status == "complete"
+      
   end
   def 
 end
