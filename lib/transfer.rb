@@ -16,5 +16,4 @@ class Transfer
   end
 end
 
-self.sender.valid? && self.receiver.valid? == 1
 
