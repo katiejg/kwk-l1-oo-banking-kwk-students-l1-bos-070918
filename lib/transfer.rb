@@ -15,3 +15,6 @@ class Transfer
     end
   end
 end
+
+sender.valid?
+receiver.valid?
